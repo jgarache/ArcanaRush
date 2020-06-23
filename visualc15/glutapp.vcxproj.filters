@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\App.cpp" />
+    <ClCompile Include="..\app_main.cpp" />
+    <ClCompile Include="..\GlutApp.cpp" />
+    <ClCompile Include="..\Objects\boss.cpp">
+      <Filter>Game\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Objects\bullet.cpp">
+      <Filter>Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Objects\character.cpp">
+      <Filter>Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Objects\entity.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Objects\game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Objects\mob.cpp">
+      <Filter>Game\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RgbImage.cpp" />
+    <ClCompile Include="..\TexRect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\App.h" />
+    <ClInclude Include="..\GlutApp.h" />
+    <ClInclude Include="..\Objects\Boss.h">
+      <Filter>Game\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Objects\Bullet.h">
+      <Filter>Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Objects\Character.h">
+      <Filter>Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Objects\Entity.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Objects\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Objects\Mob.h">
+      <Filter>Game\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RgbImage.h" />
+    <ClInclude Include="..\TexRect.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{3bb514a6-6a6b-47d9-877b-1ab206d94cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Boss">
+      <UniqueIdentifier>{32feeef1-8c1a-4d36-9ecb-7064dd08eab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullet">
+      <UniqueIdentifier>{046fc3d6-a2ac-48fc-8895-69d2e2300145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character">
+      <UniqueIdentifier>{49b124b0-85af-4fda-8415-d70c3ef1f18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity">
+      <UniqueIdentifier>{d46d6e7b-a0a6-44d0-be3f-7789e93d899a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Mob">
+      <UniqueIdentifier>{5aa79a41-4a28-4181-90ba-57630e57f705}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\kyrilov.bmp" />
+    <Image Include="..\shang.bmp" />
+    <Image Include="..\wei.bmp" />
+    <Image Include="..\xin.bmp" />
+    <Image Include="..\galaxy.bmp" />
+  </ItemGroup>
+</Project>
